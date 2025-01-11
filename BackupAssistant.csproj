@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-BackupAssistant-0e4da79d-dced-4d13-828a-24670ea87c39</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+	<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.0" />
+	<PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="172.52.0" />
+  </ItemGroup>
+</Project>
